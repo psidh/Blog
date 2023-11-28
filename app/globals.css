@@ -11,13 +11,13 @@
   }
 
   .button-div-class {
-    @apply text-center w-full hover:border 
-    hover:border-fuchsia-400 rounded-full px-6 py-2 bg-fuchsia-600 hover:bg-[#111111] transform duration-200;
+    @apply text-center w-full border  border-fuchsia-600 bg-fuchsia-600
+    hover:border-fuchsia-400 rounded-full px-6 py-2  hover:bg-[#111111] transform duration-200;
   }
 
   .image-class {
     @apply flex flex-col border 
-    border-[#555555] transform duration-300 
+    border-[#323232] transform duration-300 
     rounded-2xl px-6 py-4 hover:border-fuchsia-500;
   }
 
@@ -33,11 +33,11 @@
 
   .main-card{
     @apply flex flex-col text-left border p-4  cursor-pointer
-    border-[#333333] rounded-xl hover:bg-[#242424] transform duration-300
+    border-[#333333] rounded-xl hover:bg-fuchsia-950/30 hover:border-fuchsia-400 transform duration-300
   }
 
   .sub-card {
     @apply flex flex-col text-left border p-4 w-full cursor-pointer
-    border-[#333333] rounded-xl hover:bg-[#242424] transform duration-300
+    border-[#333333] rounded-xl hover:bg-fuchsia-950/30 hover:border-fuchsia-400 transform duration-300
   }
 }

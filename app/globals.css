@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .icons {
+    @apply text-xl md:text-3xl my-4 border 
+    rounded-full p-1 hover:border-fuchsia-500 
+    hover:text-fuchsia-500 transform duration-300 
+    cursor-pointer;
+  }
+
+  .button-div-class {
+    @apply text-center w-full hover:border 
+    hover:border-fuchsia-400 rounded-full px-6 py-2 bg-fuchsia-600 hover:bg-[#111111] transform duration-200;
+  }
+
+  .image-class {
+    @apply flex flex-col border 
+    border-[#555555] transform duration-300 
+    rounded-2xl px-6 py-4 hover:border-fuchsia-500;
+  }
+
+  .image-title-class {
+    @apply flex justify-between space-x-2 items-center text-center py-4;
+  }
+
+  .nav-link {
+    @apply hover:border border border-b-4 border-b-[#323232] hover:border-b-4 hover:border-b-fuchsia-500 px-4 py-1 
+    border-t-0 border-r-0 border-l-0 border-t-[#323232] border-r-[#323232] border-l-[#323232]
+    hover:bg-[#323232] transform duration-200;
+  }
+
+  .main-card{
+    @apply flex flex-col text-left border p-4  cursor-pointer
+    border-[#333333] rounded-xl hover:bg-[#242424] transform duration-300
+  }
+
+  .sub-card {
+    @apply flex flex-col text-left border p-4 w-full cursor-pointer
+    border-[#333333] rounded-xl hover:bg-[#242424] transform duration-300
+  }
+}

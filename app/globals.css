@@ -7,7 +7,7 @@
     @apply text-xl md:text-3xl my-4 border 
     rounded-full p-1 hover:border-fuchsia-500 
     hover:text-fuchsia-500 transform duration-300 
-    cursor-pointer;
+    cursor-pointer text-[#999999] border-[#999999] ;
   }
 
   .button-div-class {
@@ -18,11 +18,7 @@
   .image-class {
     @apply flex flex-col border 
     border-[#323232] transform duration-300 
-    rounded-2xl px-6 py-4 hover:border-fuchsia-500;
-  }
-
-  .image-title-class {
-    @apply flex justify-between space-x-2 items-center text-center py-4;
+    rounded-2xl p-6 hover:border-fuchsia-500;
   }
 
   .nav-link {
@@ -37,7 +33,21 @@
   }
 
   .sub-card {
-    @apply flex flex-col text-left border p-4 w-full cursor-pointer
+    @apply flex flex-col text-left border p-4 w-full cursor-pointer my-1
     border-[#333333] rounded-xl hover:bg-fuchsia-950/30 hover:border-fuchsia-400 transform duration-300
+  }
+
+  /* _________________________________________________________________________________________________________________________ */
+
+  .grid-one-main-card{
+    @apply flex flex-col text-left border p-4  mx-1 cursor-pointer
+    border-[#333333] rounded-xl hover:bg-fuchsia-950/30 
+    hover:border-fuchsia-400 transform duration-300
+  }
+
+  .grid-one-sub-card {
+    @apply flex flex-col text-left border p-4 w-full cursor-pointer
+    border-[#333333] rounded-xl hover:bg-fuchsia-950/30 
+    hover:border-fuchsia-400 transform duration-300 my-1
   }
 }

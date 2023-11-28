@@ -6,13 +6,9 @@ import { TiSocialLinkedin } from 'react-icons/ti';
 
 export default function Info() {
   return (
-    <div className="w-1/4 m-4 h-screen">
+    <div className="w-1/4 mx-4 h-screen">
       <div className="image-class">
-        <div className="image-title-class">
-          <h1 className="text-lg font-bold">Philkhana Sidharth</h1>
-          <h2 className="text-sm">Student | Developer</h2>
-        </div>
-        <div className="flex items-center justify-center py-4">
+        <div className="flex items-center justify-center pb-4">
           <img
             src="/me.jpeg"
             alt="my image"
@@ -20,11 +16,11 @@ export default function Info() {
           />
         </div>
         <div className="flex flex-col items py-4 space-y-4 text-center">
-          <p>philkhanasidharth14@gmail.com</p>
+          <p className='text-[#999999]'>philkhanasidharth14@gmail.com</p>
           <p className="text-xl font-semibold">GITAM, Visakhapatnam</p>
         </div>
-        <div className="text-center">© 2022 Sidharth. All Rights Reserved</div>
-        <div className="flex space-x-2 justify-center items-center">
+        <div className="text-center text-[#d4d4d4]">© 2022 Sidharth. All Rights Reserved</div>
+        <div className="flex space-x-2 justify-center items-center text-[#999999]">
           <CiTwitter className="icons" />
           <CiInstagram className="icons" />
           <PiGithubLogoLight className="icons" />

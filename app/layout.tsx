@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
+import Navbar from '@/components/Navbar';
 const jakarta = Plus_Jakarta_Sans({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -16,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`dark:bg-[#111111] bg-white dark:text-white text-black ${jakarta.className}`}>
+        <Navbar />
         {children}
       </body>
     </html>

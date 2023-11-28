@@ -114,13 +114,7 @@ export default function page() {
                 </li>
               </ol>
             </div>
-            <div>
-              <h1 className="text-3xl">Getting Started with Web Development</h1>
-              <p className="text-lg">
-                If you are a student/developer eager to dive into the world of
-                web development, here's a road-map to help you get started:
-              </p>
-            </div>
+            
           </div>
         </div>
       </div>

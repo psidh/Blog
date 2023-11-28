@@ -6,7 +6,7 @@ import { TiSocialLinkedin } from 'react-icons/ti';
 
 export default function Info() {
   return (
-    <div className="w-1/4 m-4">
+    <div className="w-1/4 m-4 h-screen">
       <div className="image-class">
         <div className="image-title-class">
           <h1 className="text-lg font-bold">Philkhana Sidharth</h1>

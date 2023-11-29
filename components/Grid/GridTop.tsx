@@ -3,7 +3,7 @@ import React from 'react';
 const GridTop: React.FC = () => {
   return (
     <div className="flex md:flex-row flex-col justify-center space-x-2">
-      <a href="/web" className='md:p-0 p-8'>
+      <a href="/web" className='md:p-0 px-8'>
         <div className="main-card">
           <img
             src="/blog1.png"
@@ -20,7 +20,7 @@ const GridTop: React.FC = () => {
         </div>
       </a>
 
-      <div className="flex flex-col md:p-0 p-8">
+      <div className="flex flex-col md:p-0 px-8">
         <div className="sub-card">
           <img
             src="/blog2.png"

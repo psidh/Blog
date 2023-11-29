@@ -35,7 +35,7 @@
   }
 
   .sub-card {
-    @apply flex flex-col text-left border p-4 w-full cursor-pointer my-6 md:my-2
+    @apply flex flex-col text-left border p-4 w-full cursor-pointer my-2
     border-[#333333] rounded-xl hover:bg-fuchsia-950/30 hover:border-fuchsia-400 transform duration-300
   }
 

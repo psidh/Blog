@@ -2,8 +2,8 @@ import React from 'react';
 
 const GridOne: React.FC = () => {
   return (
-    <div className="flex flex-row-reverse justify-center my-4">
-      <a href="/web">
+    <div className="flex md:flex-row-reverse flex-col justify-center my-2">
+      <a href="/web" className='md:p-0 p-8'>
         <div className="grid-one-main-card">
           <img
             src="/blog1.png"
@@ -20,8 +20,8 @@ const GridOne: React.FC = () => {
         </div>
       </a>
 
-      <div className="flex flex-col mx-1">
-        <div className="grid-one-sub-card ">
+      <div className="flex flex-col md:p-0 p-8">
+        <div className="grid-one-sub-card">
           <img
             src="/blog2.png"
             alt="second blog"
@@ -32,7 +32,7 @@ const GridOne: React.FC = () => {
           </p>
           <p className="text-[#777777]">Jun 24 2023</p>
         </div>
-        <div className="grid-one-sub-card">
+        <div className="grid-one-sub-card ">
           <img
             src="/blog2.png"
             alt="second blog"

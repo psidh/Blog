@@ -4,7 +4,6 @@ import { Roboto_Mono } from 'next/font/google';
 const roboto = Roboto_Mono({ subsets: ['latin'] });
 
 export default function page() {
-  const pClass = `px-4 py-1 rounded-full bg-[#535353]`;
   const liClass = `text-justify text-[#d3d3d3]  my-4 text-lg leading-10`;
   const spanClass = `${roboto.className} bg-slate-800 text-[#d9d9d9]  text-black px-3 rounded-lg`;
   return (

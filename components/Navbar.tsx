@@ -3,7 +3,7 @@ export default function Navbar() {
     <div className="p-6">
       <div>
         <div>
-          <h1 className="text-3xl hidden md:flex font-bold text-left my-2">
+          <h1 className="text-3xl text-fuchsia-400  font-bold text-left my-2">
             Philkhana Sidharth
           </h1>
           <h2 className='my-2 text-[#c2c2c2]'>Student | Developer </h2>

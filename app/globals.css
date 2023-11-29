@@ -18,7 +18,7 @@
   .image-class {
     @apply flex flex-col border 
     border-[#323232] transform duration-300 
-    rounded-2xl p-6 hover:border-fuchsia-500;
+    rounded-2xl p-4 md:p-6 border-fuchsia-500;
   }
 
   .nav-link {
@@ -27,13 +27,15 @@
     hover:bg-[#323232] transform duration-200;
   }
 
+  /* +_________________________________________________________________________________________________________________________ */
   .main-card{
-    @apply flex flex-col text-left border p-4  cursor-pointer
+    @apply flex flex-col text-left border p-4 cursor-pointer
     border-[#333333] rounded-xl hover:bg-fuchsia-950/30 hover:border-fuchsia-400 transform duration-300
+    my-6 md:my-2
   }
 
   .sub-card {
-    @apply flex flex-col text-left border p-4 w-full cursor-pointer my-1
+    @apply flex flex-col text-left border p-4 w-full cursor-pointer my-6 md:my-2
     border-[#333333] rounded-xl hover:bg-fuchsia-950/30 hover:border-fuchsia-400 transform duration-300
   }
 
@@ -42,12 +44,12 @@
   .grid-one-main-card{
     @apply flex flex-col text-left border p-4  mx-1 cursor-pointer
     border-[#333333] rounded-xl hover:bg-fuchsia-950/30 
-    hover:border-fuchsia-400 transform duration-300
+    hover:border-fuchsia-400 transform duration-300 my-6 md:my-2
   }
 
   .grid-one-sub-card {
     @apply flex flex-col text-left border p-4 w-full cursor-pointer
     border-[#333333] rounded-xl hover:bg-fuchsia-950/30 
-    hover:border-fuchsia-400 transform duration-300 my-1
+    hover:border-fuchsia-400 transform duration-300 my-6 md:my-0
   }
 }

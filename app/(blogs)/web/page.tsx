@@ -5,7 +5,7 @@ const roboto = Roboto_Mono({ subsets: ['latin'] });
 
 export default function page() {
   const liClass = `text-justify text-[#d3d3d3]  my-4 text-lg leading-10`;
-  const spanClass = `${roboto.className} bg-slate-800 text-[#d9d9d9]  text-black px-3 rounded-lg`;
+  const spanClass = `${roboto.className} bg-slate-800 text-[#d9d9d9]  px-3 rounded-lg`;
   return (
     <div>
       <div>
@@ -13,16 +13,16 @@ export default function page() {
       </div>
 
       <div className="flex items-center justify-center">
-        <div className="w-[55%]">
+        <div className="w-4/5 lg:w-[55%]">
           <div className="flex flex-col ">
             <div className="text-center my-4">
-              <h1 className="text-6xl my-4 font-semibold text-[#ededed]">
+              <h1 className="text-xl md:text-6xl my-4 font-semibold text-[#ededed]">
                 Web Development
               </h1>
-              <h2 className="text-2xl my-4 text-[#dadada]">
+              <h2 className="text-lg md:text-2xl my-4 text-[#dadada]">
                 A Journey from HTML to JavaScript
               </h2>
-              <h3 className="text-xl my-4 text-[#777777]">
+              <h3 className="text-lg md:text-xl my-4 text-[#777777]">
                 Exploring the Evolution of Web Development Technologies
               </h3>
 
@@ -30,14 +30,14 @@ export default function page() {
                 <img
                   src="/me.jpeg"
                   alt="sidharth"
-                  className="w-20 h-20 rounded-full object-cover"
+                  className=" w-12 h-12 md:w-20 md:h-20 rounded-full object-cover"
                 />
-                <p className="text-xl px-2 font-bold">P Sidhath </p>
-                <p className="text-xl px-2">|</p>
-                <p className="px-2">24 Jun 2023</p>
-                <div className="flex space-x-4 items-center justify-betw4een px-">
+                <p className="md:text-xl md:flex hidden px-2 font-bold">P Sidharth </p>
+                <p className="text-sm md:text-xl px-1">|</p>
+                <p className="text-sm md:text-xl px-2">24 Jun 2023</p>
+                <div className="flex space-x-4 items-center justify-between px-1">
                   <GoBook />
-                  <p> 7 min</p>
+                  <p className="text-sm md:text-xl"> 7 min</p>
                 </div>
               </div>
             </div>

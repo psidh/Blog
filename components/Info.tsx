@@ -19,8 +19,7 @@ export default function Info() {
           <p className='text-[#999999]'>philkhanasidharth14@gmail.com</p>
           <p className="text-xl font-semibold">GITAM, Visakhapatnam</p>
         </div>
-        <div className="text-center text-[#d4d4d4]">© 2022 Sidharth. All Rights Reserved</div>
-        <div className="flex space-x-2 justify-center items-center text-[#999999]">
+        <div className="flex space-x-2 justify-evenly items-center text-[#999999]">
           <CiTwitter className="icons" />
           <CiInstagram className="icons" />
           <PiGithubLogoLight className="icons" />

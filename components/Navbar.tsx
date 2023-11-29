@@ -6,8 +6,8 @@ export default function Navbar() {
           <h1 className="text-3xl text-fuchsia-400  font-bold text-left my-2">
             Philkhana Sidharth
           </h1>
-          <h2 className='my-2 text-[#c2c2c2]'>Student | Developer </h2>
-        
+          <h2 className="my-2 text-[#c2c2c2]">Student | Developer </h2>
+
           <div className="flex justify-center items-center my-4 space-x-4">
             <a href="/" className="nav-link">
               Home
@@ -28,9 +28,7 @@ export default function Navbar() {
             </a>
           </div>
         </div>
-        <div>
-          
-        </div>
+        <div></div>
       </div>
     </div>
   );

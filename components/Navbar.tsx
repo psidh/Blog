@@ -13,8 +13,7 @@ export default function Navbar() {
               Home
             </a>
             <a
-              href="https://psidh.vercel.app"
-              target="/topics"
+              href="/topics"
               className="nav-link"
             >
               Topics

@@ -30,7 +30,7 @@ const GridOne: React.FC = () => {
           <p className="mb-3 text-[#999999]">
             Read about DSA, it's importance and Interview Tips!
           </p>
-          <p className="text-[#777777]">Jun 24 2023</p>
+          <p className="text-[#777777]">Jun 21 2023</p>
         </div>
         <div className="grid-one-sub-card ">
           <img

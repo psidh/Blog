@@ -22,8 +22,12 @@
   }
 
   .nav-link {
-    @apply hover:border border border-b-4 border-b-[#323232] hover:border-b-4 hover:border-b-fuchsia-500 px-4 py-1 
-    border-t-0 border-r-0 border-l-0 border-t-[#323232] border-r-[#323232] border-l-[#323232]
+    @apply  border-b-4 
+    border-b-[#323232] 
+    hover:border-b-4 
+    hover:border-b-fuchsia-500 px-4 py-1 
+    border-t-0 border-r-0 border-l-0 border-t-[#323232] 
+    border-r-[#323232] border-l-[#323232]
     hover:bg-[#323232] transform duration-200;
   }
 

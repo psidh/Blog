@@ -1,8 +1,12 @@
 import React from 'react';
 import { GoBook } from 'react-icons/go';
+import { Roboto_Mono } from 'next/font/google';
+const roboto = Roboto_Mono({ subsets: ['latin'] });
+
 export default function page() {
   const pClass = `px-4 py-1 rounded-full bg-[#535353]`;
-  const liClass = `text-justify text-[#c2c2c2]  my-4`;
+  const liClass = `text-justify text-[#d3d3d3]  my-4 text-lg leading-10`;
+  const spanClass = `${roboto.className} bg-slate-800 text-[#d9d9d9]  text-black px-3 rounded-lg`;
   return (
     <div>
       <div>
@@ -23,7 +27,7 @@ export default function page() {
                 Exploring the Evolution of Web Development Technologies
               </h3>
 
-              <div className="flex space-x-3 items-center justify-center my-4">
+              <div className="flex space-x-3 items-center justify-center">
                 <img
                   src="/me.jpeg"
                   alt="sidharth"
@@ -40,31 +44,25 @@ export default function page() {
             </div>
 
             <div>
-              <hr className="text-lg w-full px-5 border-gray-600 mb-4" />
+              <hr className="text-lg w-full px-5 border-gray-600" />
             </div>
 
-            <div className="flex flex-wrap space-x-2 justify-center">
-              <p className={pClass}>HTML 5</p>
-              <p className={pClass}>CSS</p>
-              <p className={pClass}>TailwindCSS</p>
-              <p className={pClass}>JavaScript</p>
-              <p className={pClass}>React</p>
-              <p className={pClass}>Angular</p>
-              <p className={pClass}>NextJS</p>
-            </div>
-
-            <div className="my-4 ">
-              <h2 className="text-3xl my-4">Introduction</h2>
-              <p className="text-justify text-[#c2c2c2] ">
-                     Web development has witnessed remarkable growth and
-                transformation over the years. From the humble beginnings of
-                static HTML pages to dynamic and interactive web applications
-                powered by JavaScript, the field has evolved into a fascinating
-                domain of innovation and creativity. In this article, we will
-                explore the journey of web development, starting from its
-                inception, and guide aspiring developers on how to get started.
-                The Birth of Web Development: Web development traces its roots
-                back to the early 1990s when the World Wide Web (WWW) was
+            <div>
+              <h2 className="text-4xl my-4 font-bold">Introduction</h2>
+              <p className="text-justify text-lg text-[#a5a5a5] leading-10">
+                        
+                <span className="text-3xl font-semibold text-white">W</span>eb
+                development has witnessed remarkable growth and transformation
+                over the years. From the humble beginnings of static{' '}
+                <span className={spanClass}>HTML</span> pages to dynamic and
+                interactive web applications powered by{' '}
+                <span className={spanClass}>JavaScript</span>, the field has
+                evolved into a fascinating domain of innovation and creativity.
+                In this article, we will explore the journey of web development,
+                starting from its inception, and guide aspiring developers on
+                how to get started. The Birth of Web Development: Web
+                development traces its roots back to the early 1990s when the{' '}
+                <span className={spanClass}>World Wide Web (WWW)</span> was
                 introduced. Tim Berners-Lee is often hailed as the father of the
                 web, creating HTML (Hypertext Markup Language) as a simple
                 markup language for structuring web pages. HTML allowed the
@@ -72,49 +70,83 @@ export default function page() {
                 interconnected pages.
               </p>
             </div>
-
             <div>
-              <h2 className="text-3xl my-4">Evolution of Web Development</h2>
+              <h2 className="text-4xl my-4 font-bold">
+                Getting Started with Web Development
+              </h2>
+              <p className={`text-lg my-4 ${liClass}`}>
+                        If you are someone who is eager to dive into the world
+                of web development, here's a roadmap to help you get started:
+              </p>
               <ol>
                 <li className={liClass}>
-                  1.           HTML and CSS: HTML served as the foundation for
-                  web development, but it lacked visual aesthetics. To address
-                  this, Cascading Style Sheets (CSS) emerged as a powerful
-                  styling language in the late 1990s. CSS enabled developers to
-                  control the layout, colours, fonts, and other visual aspects
-                  of web pages, enhancing the overall user experience.
+                  <span className={spanClass}>HTML and CSS</span> : Begin by
+                  mastering the fundamentals of HTML and CSS. These languages
+                  form the backbone of web development. Learn how to structure
+                  web pages using HTML tags, create forms, add images, and apply
+                  CSS styles for layout and visual enhancements.
                 </li>
                 <li className={liClass}>
-                  2.           JavaScript and Interactivity: JavaScript,
-                  introduced in 1995, revolutionized web development by adding
-                  interactivity and dynamic features to websites. With
-                  JavaScript, developers could manipulate web page elements,
-                  handle user interactions, and create engaging experiences. The
-                  language quickly gained popularity, leading to the rise of web
-                  applications and interactive websites.
+                  Explore CSS Frameworks: Familiarize yourself with{' '}
+                  <span className={spanClass}>CSS</span>
+                  frameworks like{' '}
+                  <span className={spanClass}>Tailwind CSS</span> , which
+                  provides utility classes to style your web pages efficiently.
+                  Tailwind CSS follows a "utility-first" approach, allowing you
+                  to rapidly build custom designs with minimal CSS code.
                 </li>
                 <li className={liClass}>
-                  3.           Frameworks and Libraries: To streamline
-                  development and enhance productivity, frameworks and libraries
-                  emerged. These pre-written code collections provide
-                  ready-to-use functionalities and abstractions, empowering
-                  developers to build complex applications more efficiently.
-                  Popular frameworks like React, Angular, and Vue.js, along with
-                  libraries like jQuery has simplified web development by
-                  offering robust tools and components.
+                  <span className={spanClass}>JavaScript</span> Essentials:
+                  Next, venture into JavaScript to add interactivity to your web
+                  pages. Learn core concepts like variables, functions, loops,
+                  and conditionals. Understand how to manipulate the{' '}
+                  <span className={spanClass}>Document Object Model (DOM)</span>{' '}
+                  to dynamically modify elements and respond to user actions.
                 </li>
                 <li className={liClass}>
-                  4.           Responsive Web Design: With the proliferation of
-                  mobile devices, responsive web design became a crucial aspect
-                  of development. Websites needed to adapt to various screen
-                  sizes and resolutions. CSS frameworks, such as Bootstrap and
-                  Tailwind CSS, emerged, providing responsive grid systems,
-                  ready-made UI components, and styling options to ensure
-                  optimal user experiences across devices.
+                  Frameworks and Libraries: Once you have a solid understanding
+                  of JavaScript, explore popular frameworks like{' '}
+                  <span className={spanClass}>React</span> ,
+                  <span className={spanClass}>Angular</span> , or{' '}
+                  <span className={spanClass}>Vue.js</span> . Choose one and
+                  learn its fundamentals, including component-based
+                  architecture, routing, state management, and data binding.
+                  Build small projects to practice and reinforce your skills.
+                </li>
+                <li className={liClass}>
+                  Practice and Build Projects: The key to mastering web
+                  development is practice. Start with simple projects and
+                  gradually tackle more complex ones. Build personal websites,
+                  portfolio pages, or mini-applications to showcase your
+                  abilities and learn through hands-on experience.
+                </li>
+                <li className={liClass}>
+                  Continual Learning: Stay updated with the latest web
+                  development trends, tools, and best practices
+                </li>
+                <li className={liClass}>
+                  Follow web development communities, blogs, and online
+                  tutorials to expand your knowledge. Keep experimenting,
+                  exploring new techniques, and challenging yourself to grow as
+                  a developer.
                 </li>
               </ol>
             </div>
-            
+
+            <div>
+              <h2 className="text-4xl my-4 font-bold">Conclusion</h2>
+              <p className={liClass}>
+                Web development has come a long way, transforming from static
+                HTML pages to dynamic, interactive web applications powered by
+                JavaScript. As a sophomore web developer, you have already
+                acquired a strong foundation with HTML, CSS, Tailwind CSS, and
+                JavaScript. By exploring frameworks, practising regularly, and
+                staying curious, you can embark on an exciting journey of web
+                development and contribute to the ever-evolving digital
+                landscape. So, roll up your sleeves, dive into coding, and let
+                your creativity shape the future of the web!
+              </p>
+            </div>
           </div>
         </div>
       </div>

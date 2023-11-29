@@ -25,7 +25,7 @@ const GridTop: React.FC = () => {
         </div>
       </a>
 
-      <div className="flex flex-col md:p-0 px-8 lg:w-2/5 mx-1">
+      <div className="flex flex-col justify-between md:p-0 px-8 lg:w-2/5 mx-1">
         <div className="sub-card mb-1">
           <img
             src="/blog2.png"

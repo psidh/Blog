@@ -6,7 +6,7 @@ import { TiSocialLinkedin } from 'react-icons/ti';
 
 export default function Info() {
   return (
-    <div className="w-full md:p-0 p-8 lg:w-1/4 mx-0 md:mx-4 min-h-fit my-8 md:my-0">
+    <div className="w-full md:p-0 px-8 lg:w-1/4 mx-0 md:mx-4 min-h-fit md:my-0">
       <div className="image-class">
         <div className="flex items-center justify-center pb-4">
           <img

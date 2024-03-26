@@ -5,52 +5,54 @@ const roboto = Roboto_Mono({ subsets: ['latin'] });
 
 export default function page() {
   const liClass = `text-justify text-[#d3d3d3]  my-4 text-lg leading-10`;
-  const spanClass = `${roboto.className} bg-slate-800 text-[#d9d9d9]  px-3 rounded-lg`;
+  const spanClass = `${roboto.className} bg-[#555555] text-[#d9d9d9]  px-3 rounded-lg`;
   return (
     <div>
       <div>
-        <hr className="text-lg w-full px-5 border-gray-600" />
+        <hr className='text-lg w-full px-5 border-gray-600' />
       </div>
 
-      <div className="flex items-center justify-center">
-        <div className="w-4/5 lg:w-[55%]">
-          <div className="flex flex-col ">
-            <div className="text-center my-4">
-              <h1 className="text-xl md:text-6xl my-4 font-semibold text-[#ededed]">
+      <div className='flex items-center justify-center'>
+        <div className='w-4/5 lg:w-[55%]'>
+          <div className='flex flex-col '>
+            <div className='text-center my-4'>
+              <h1 className='text-xl md:text-6xl my-4 font-semibold text-[#ededed]'>
                 Web Development
               </h1>
-              <h2 className="text-lg md:text-2xl my-4 text-[#dadada]">
+              <h2 className='text-lg md:text-2xl my-4 text-[#dadada]'>
                 A Journey from HTML to JavaScript
               </h2>
-              <h3 className="text-lg md:text-xl my-4 text-[#777777]">
+              <h3 className='text-lg md:text-xl my-4 text-[#777777]'>
                 Exploring the Evolution of Web Development Technologies
               </h3>
 
-              <div className="flex space-x-3 items-center justify-center">
+              <div className='flex space-x-3 items-center justify-center'>
                 <img
-                  src="/me.jpeg"
-                  alt="sidharth"
-                  className=" w-12 h-12 md:w-20 md:h-20 rounded-full object-cover"
+                  src='/me.jpeg'
+                  alt='sidharth'
+                  className=' w-12 h-12 md:w-20 md:h-20 rounded-full object-cover'
                 />
-                <p className="md:text-xl md:flex hidden px-2 font-bold">P Sidharth </p>
-                <p className="text-sm md:text-xl px-1">|</p>
-                <p className="text-sm md:text-xl px-2">24 Jun 2023</p>
-                <div className="flex space-x-4 items-center justify-between px-1">
+                <p className='md:text-xl md:flex hidden px-2 font-bold'>
+                  P Sidharth{' '}
+                </p>
+                <p className='text-sm md:text-xl px-1'>|</p>
+                <p className='text-sm md:text-xl px-2'>24 Jun 2023</p>
+                <div className='flex space-x-4 items-center justify-between px-1'>
                   <GoBook />
-                  <p className="text-sm md:text-xl"> 7 min</p>
+                  <p className='text-sm md:text-xl'> 7 min</p>
                 </div>
               </div>
             </div>
 
             <div>
-              <hr className="text-lg w-full px-5 border-gray-600" />
+              <hr className='text-lg w-full px-5 border-gray-600' />
             </div>
 
             <div>
-              <h2 className="text-4xl my-4 font-bold">Introduction</h2>
-              <p className="text-justify text-lg text-[#a5a5a5] leading-10">
+              <h2 className='text-4xl my-4 font-bold'>Introduction</h2>
+              <p className='text-justify text-lg text-[#a5a5a5] leading-10'>
                         
-                <span className="text-3xl font-semibold text-white">W</span>eb
+                <span className='text-3xl font-semibold text-white'>W</span>eb
                 development has witnessed remarkable growth and transformation
                 over the years. From the humble beginnings of static{' '}
                 <span className={spanClass}>HTML</span> pages to dynamic and
@@ -70,7 +72,7 @@ export default function page() {
               </p>
             </div>
             <div>
-              <h2 className="text-4xl my-4 font-bold">
+              <h2 className='text-4xl my-4 font-bold'>
                 Getting Started with Web Development
               </h2>
               <p className={`text-lg my-4 ${liClass}`}>
@@ -133,7 +135,7 @@ export default function page() {
             </div>
 
             <div>
-              <h2 className="text-4xl my-4 font-bold">Conclusion</h2>
+              <h2 className='text-4xl my-4 font-bold'>Conclusion</h2>
               <p className={liClass}>
                 Web development has come a long way, transforming from static
                 HTML pages to dynamic, interactive web applications powered by

@@ -1,11 +1,11 @@
 import GridTop from './Grid/GridTop';
-import GridOne from './Grid/GridOne';
+import GridTwo from './Grid/GridTwo';
 
 export default function Main() {
   return (
-    <div className="w-full md:w-4/5">
+    <div className='w-full md:w-4/5'>
       <GridTop />
-      {/* <GridOne /> */}
+      <GridTwo />
     </div>
   );
 }

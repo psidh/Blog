@@ -7,7 +7,7 @@
     @apply text-xl md:text-3xl my-4 border 
     rounded-full p-1 hover:border-fuchsia-500 
     hover:text-fuchsia-500 transform duration-300 
-    cursor-pointer text-[#ffffff] border-[#ffffff] ;
+    cursor-pointer text-[#ffffff] border-[#ffffff];
   }
 
   .button-div-class {
@@ -22,7 +22,7 @@
   }
 
   .nav-link {
-    @apply  border-b-4 
+    @apply border-b-4 
     border-b-[#323232] 
     hover:border-b-4 
     hover:border-b-fuchsia-500 px-4 py-1 
@@ -32,29 +32,41 @@
   }
 
   /* +_________________________________________________________________________________________________________________________ */
-  .main-card{
+  .main-card {
     @apply flex flex-col text-left border p-4 cursor-pointer
     border-[#333333] rounded-xl hover:bg-fuchsia-950/30 
-    hover:border-fuchsia-400 transform duration-300
+    hover:border-fuchsia-400 transform duration-300;
   }
 
   .sub-card {
     @apply flex flex-col text-left border p-4 w-full cursor-pointer md:my-2 md:my-0
     border-[#333333] rounded-xl hover:bg-fuchsia-950/30 
-    hover:border-fuchsia-400 transform duration-300
+    hover:border-fuchsia-400 transform duration-300;
   }
 
   /* _________________________________________________________________________________________________________________________ */
 
-  .grid-one-main-card{
+  .grid-one-main-card {
     @apply flex flex-col text-left border p-4  mx-1 cursor-pointer
     border-[#333333] rounded-xl hover:bg-fuchsia-950/30 
-    hover:border-fuchsia-400 transform duration-300 my-6 md:my-2
+    hover:border-fuchsia-400 transform duration-300 my-6 md:my-2;
   }
 
   .grid-one-sub-card {
     @apply flex flex-col text-left border p-4 w-full cursor-pointer
     border-[#333333] rounded-xl hover:bg-fuchsia-950/30 
-    hover:border-fuchsia-400 transform duration-300 my-6 md:my-0
+    hover:border-fuchsia-400 transform duration-300 my-6 md:my-0;
+  }
+
+  .topic {
+    @apply flex items-center justify-start space-x-6 my-6 border-[#545454] border p-6 rounded-2xl;
+  }
+
+  .topic-img {
+    @apply w-1/2 h-1/3 object-cover rounded-lg;
+  }
+
+  .topic-title {
+    @apply text-2xl sm:text-4xl lg:text-5xl font-bold;
   }
 }

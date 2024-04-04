@@ -17,7 +17,7 @@ export default function page() {
           <div className='flex flex-col '>
             <div className='text-center my-4'>
               <h1 className='text-xl md:text-6xl my-4 font-semibold text-[#ededed]'>
-                Need for cloud?
+                What is the need for cloud?
               </h1>
               <h2 className='text-lg md:text-2xl my-4 text-[#dadada]'>
                 Not having enough infrastructure to support your business?

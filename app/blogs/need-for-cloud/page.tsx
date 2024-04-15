@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import { GoBook } from 'react-icons/go';
 import { Roboto_Mono } from 'next/font/google';
 const roboto = Roboto_Mono({ subsets: ['latin'] });
@@ -51,16 +51,15 @@ export default function page() {
             <div>
               <h2 className='text-4xl my-4 font-bold'>Introduction</h2>
               <p className='text-justify text-lg text-[#a5a5a5] leading-10'>
-                        
                 <span className='text-3xl font-semibold text-white'>T</span>
                 raditional IT has always been people using physical systems,
                 with all the responsibility of{' '}
                 <span className={spanClass}>maintenance</span>,{'  '}
                 <span className={spanClass}>scalability</span>,{'  '}
                 <span className={spanClass}>performance</span> undertaken by the
-                user himself. For the most part of early 2000s, every
+                user himself. For the most part of the early 2000s, every
                 entrepreneur who wanted to start a venture of his own would
-                require to setup all the infrastructure by themselves. Many
+                require setting up all the infrastructure by themselves. Many
                 big-tech companies that we see from{'  '}
                 <span className={spanClass}>Apple</span> to
                 {'  '}
@@ -74,7 +73,7 @@ export default function page() {
                 Problems with Traditional IT
               </h2>
               <p className={`text-lg my-4 ${liClass}`}>
-                        Following are the issues with conventional approach to
+                Following are the issues with the conventional approach to
                 business that could possibly make things harder in the long run
                 as the platform expands
               </p>
@@ -90,61 +89,85 @@ export default function page() {
                   business expands, it is inevitable to encounter some flaws in
                   your website/app that you are building. This includes updating
                   the software, hardware, troubleshooting errors. To minimize
-                  the flaws, a persistent 24x7 maintenance is a must. . But
-                  doing this yourself or the lone organization would eat up your
-                  time that you can dedicate to actually focusing on your
-                  business.
+                  the flaws, a persistent 24x7 maintenance is a must. But doing
+                  this yourself or the lone organization would eat up your time
+                  that you can dedicate to actually focusing on your business.
                 </li>
                 <li className={liClass}>
-                  <span className={spanClass}>JavaScript</span> Essentials:
-                  Next, venture into JavaScript to add interactivity to your web
-                  pages. Learn core concepts like variables, functions, loops,
-                  and conditionals. Understand how to manipulate the{' '}
-                  <span className={spanClass}>Document Object Model (DOM)</span>{' '}
-                  to dynamically modify elements and respond to user actions.
+                  <span className={spanClass}>3. Lack of Elasticity:</span>
+                  Traditional IT infrastructure often lacks the elasticity
+                  required to handle fluctuating workloads efficiently. This
+                  results in either underutilization of resources during
+                  low-demand periods or performance degradation during peak
+                  times.
                 </li>
                 <li className={liClass}>
-                  Frameworks and Libraries: Once you have a solid understanding
-                  of JavaScript, explore popular frameworks like{' '}
-                  <span className={spanClass}>React</span> ,
-                  <span className={spanClass}>Angular</span> , or{' '}
-                  <span className={spanClass}>Vue.js</span> . Choose one and
-                  learn its fundamentals, including component-based
-                  architecture, routing, state management, and data binding.
-                  Build small projects to practice and reinforce your skills.
-                </li>
-                <li className={liClass}>
-                  Practice and Build Projects: The key to mastering web
-                  development is practice. Start with simple projects and
-                  gradually tackle more complex ones. Build personal websites,
-                  portfolio pages, or mini-applications to showcase your
-                  abilities and learn through hands-on experience.
-                </li>
-                <li className={liClass}>
-                  Continual Learning: Stay updated with the latest web
-                  development trends, tools, and best practices
-                </li>
-                <li className={liClass}>
-                  Follow web development communities, blogs, and online
-                  tutorials to expand your knowledge. Keep experimenting,
-                  exploring new techniques, and challenging yourself to grow as
-                  a developer.
+                  <span className={spanClass}>
+                    4. Limited Geographic Reach:
+                  </span>{' '}
+                  Setting up physical infrastructure in multiple locations to
+                  serve customers across the globe can be prohibitively
+                  expensive and complex, leading to restricted geographic reach
+                  and potential loss of business opportunities.
                 </li>
               </ol>
             </div>
-
             <div>
-              <h2 className='text-4xl my-4 font-bold'>Cloud</h2>
-              <p className={liClass}>
-                Web development has come a long way, transforming from static
-                HTML pages to dynamic, interactive web applications powered by
-                JavaScript. As a sophomore web developer, you have already
-                acquired a strong foundation with HTML, CSS, Tailwind CSS, and
-                JavaScript. By exploring frameworks, practising regularly, and
-                staying curious, you can embark on an exciting journey of web
-                development and contribute to the ever-evolving digital
-                landscape. So, roll up your sleeves, dive into coding, and let
-                your creativity shape the future of the web!
+              <h2 className='text-4xl my-4 font-bold'>AWS: The Solution</h2>
+              <ul className='text-lg text-[#a5a5a5] leading-10 list-disc pl-6'>
+                <li className={liClass}>
+                  <span className={spanClass}>
+                    AWS, or Amazon Web Services:
+                  </span>{' '}
+                  Provides a comprehensive suite of cloud computing services,
+                  offering scalable, reliable, and low-latency solutions for
+                  businesses of all sizes.
+                </li>
+                <li className={liClass}>
+                  <span className={spanClass}>
+                    Scalability and Flexibility:
+                  </span>{' '}
+                  By leveraging AWS, businesses can benefit from agility and
+                  flexibility in scaling their operations, allowing them to
+                  respond quickly to changing market demands.
+                </li>
+                <li className={liClass}>
+                  <span className={spanClass}>Maintenance and Security:</span>{' '}
+                  Additionally, AWS handles the maintenance and security of the
+                  underlying infrastructure, freeing up valuable time and
+                  resources that can be reinvested in innovation and growth.
+                </li>
+                <li className={liClass}>
+                  <span className={spanClass}>Global Reach:</span> Moreover, AWS
+                  offers global reach, enabling businesses to deploy
+                  applications and services in multiple regions around the
+                  world, ensuring low latency and improved performance for users
+                  across different geographic locations.
+                </li>
+                <li className={liClass}>
+                  <span className={spanClass}>Cost-effectiveness:</span> With
+                  AWS's pay-as-you-go pricing model, businesses only pay for the
+                  resources they use, making it cost-effective and scalable for
+                  startups and enterprises alike.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 className='text-4xl my-4 font-bold'>Summary</h2>
+              <p className='text-justify text-lg text-[#a5a5a5] leading-10'>
+                In summary, the advent of cloud computing, exemplified by
+                services like{' '}
+                <span className={spanClass}>Amazon Web Services (AWS)</span>,
+                addresses the fundamental challenges faced by businesses in
+                traditional IT environments. From scalability and flexibility to
+                maintenance, security, and global reach, AWS offers a
+                comprehensive solution suite that empowers businesses of all
+                sizes to thrive in today's digital economy. By providing
+                on-demand access to scalable resources, handling infrastructure
+                maintenance and security, and offering global deployment options
+                with a pay-as-you-go pricing model, AWS enables businesses to
+                focus on innovation and growth while leaving the complexities of
+                IT infrastructure management to experts.
               </p>
             </div>
           </div>

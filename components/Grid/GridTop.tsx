@@ -26,7 +26,7 @@ const GridTop: React.FC = () => {
         </div>
       </a>
 
-      <div className='flex flex-col justify-between md:p-0 px-8 lg:w-2/5 mx-1'>
+      <div className='flex flex-col-reverse justify-between md:p-0 px-8 lg:w-2/5 mx-1'>
         <div className='sub-card mb-1'>
           <img
             src='/blog2.png'
@@ -43,20 +43,20 @@ const GridTop: React.FC = () => {
             <p>21 Jun 2023</p>
           </div>
         </div>
-        <div className='sub-card mt-1'>
+        <div className='sub-card mb-1'>
           <img
-            src='/blog2.png'
-            alt='second blog'
+            src='/blog3.png'
+            alt='thirdd blog'
             className='object-cover rounded-md mb-2'
           />
           <p className='mb-3 text-[#999999]'>
-            Read about DSA, it's importance and Interview Tips!
+          Most stringent question, what, why and how of cloud
           </p>
           <div className='text-[#777777] flex justify-start items-end space-x-3'>
             <span>
               <PiCalendarCheckThin className='text-2xl inline-flex' />
             </span>
-            <p>21 Jun 2023</p>
+            <p>15 Apr 2024</p>
           </div>
         </div>
       </div>

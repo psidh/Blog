@@ -43,7 +43,7 @@ const GridTop: React.FC = () => {
             <p>21 Jun 2023</p>
           </div>
         </div>
-        <div className='sub-card mb-1'>
+        <a className='sub-card mb-1' href='/blogs/need-for-cloud'>
           <img
             src='/blog3.png'
             alt='thirdd blog'
@@ -58,7 +58,7 @@ const GridTop: React.FC = () => {
             </span>
             <p>15 Apr 2024</p>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   );

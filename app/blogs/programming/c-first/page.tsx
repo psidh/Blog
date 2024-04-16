@@ -17,13 +17,13 @@ export default function page() {
           <div className='flex flex-col '>
             <div className='text-center my-4'>
               <h1 className='text-xl md:text-6xl my-4 font-semibold text-[#ededed]'>
-                What is the need for cloud?
+                Why should C be your first language?
               </h1>
               <h2 className='text-lg md:text-2xl my-4 text-[#dadada]'>
-                Not having enough infrastructure to support your business?
+                Are High Level languages better than system or low level ones?
               </h2>
               <h3 className='text-lg md:text-xl my-4 text-[#777777]'>
-                Rent systems to upscale fast, Like blazingly fast!!!
+                Memory management and pointers are fundamentals in CS
               </h3>
 
               <div className='flex space-x-3 items-center justify-center'>
@@ -36,10 +36,10 @@ export default function page() {
                   P Sidharth{' '}
                 </p>
                 <p className='text-sm md:text-xl px-1'>|</p>
-                <p className='text-sm md:text-xl px-2'>27 Mar 2024</p>
+                <p className='text-sm md:text-xl px-2'>17 Apr 2024</p>
                 <div className='flex space-x-4 items-center justify-between px-1'>
                   <GoBook />
-                  <p className='text-sm md:text-xl'>8 min</p>
+                  <p className='text-sm md:text-xl'>5 min</p>
                 </div>
               </div>
             </div>
@@ -49,34 +49,37 @@ export default function page() {
             </div>
 
             <div>
-              <h2 className='text-4xl my-4 font-bold'>Introduction</h2>
+              <h2 className='text-4xl my-4 font-bold'>Launch</h2>
               <p className='text-justify text-lg text-[#a5a5a5] leading-10'>
-                <span className='text-3xl font-semibold text-white'>T</span>
-                raditional IT has always been people using physical systems,
-                with all the responsibility of{' '}
-                <span className={spanClass}>maintenance</span>,{'  '}
-                <span className={spanClass}>scalability</span>,{'  '}
-                <span className={spanClass}>performance</span> undertaken by the
-                user himself. For the most part of the early 2000s, every
-                entrepreneur who wanted to start a venture of his own would
-                require setting up all the infrastructure by themselves. Many
-                big-tech companies that we see from{'  '}
-                <span className={spanClass}>Apple</span> to
-                {'  '}
-                <span className={spanClass}>Google</span>
-                {'  '}, started in the garage, where they would keep large
-                servers to meet the user requirement.
+                <span className='text-3xl font-semibold text-white'>P</span>
+                rogramming languages have evolved over the years. From{' '}
+                <span className={spanClass}>Fortran</span> to{' '}
+                <span className={spanClass}>Dart</span>,{'  '}
+                there have been drastic changes in the capabilities of the
+                languages and the requirements of the programmers. There have
+                been many languages that have become obsolete or to say in other
+                words are now being less used in the industry like{' '}
+                <span className={spanClass}>Objective - C</span> which was used{' '}
+                by <span className={spanClass}>Apple</span> and then replaced by
+                Swift. But there is one such programming language that every CS
+                Grad uses and maybe initially dislikes for being new to the
+                field, and the language is C.
+                <br />
+                <br />
+                <span className='text-3xl font-semibold text-white'>
+                  C
+                </span>{' '}
+                language is a high-level, compiled, general-purpose programming
+                language which was developed by{' '}
+                <span className={spanClass}>Dennis Ritchie</span> in the 1970s.
+                Let's Discuss why C should be your first programming language.
               </p>
             </div>
             <div>
               <h2 className='text-4xl my-4 font-bold'>
-                Problems with Traditional IT
+                Low Level - Better Fundamentals
               </h2>
-              <p className={`text-lg my-4 ${liClass}`}>
-                Following are the issues with the conventional approach to
-                business that could possibly make things harder in the long run
-                as the platform expands
-              </p>
+              <p className={`text-lg my-4 ${liClass}`}>Because</p>
               <ol>
                 <li className={liClass}>
                   <span className={spanClass}>1. Scalability</span> :

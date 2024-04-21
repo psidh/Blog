@@ -5,27 +5,27 @@
 @layer components {
   .icons {
     @apply text-xl md:text-3xl my-4 border 
-    rounded-full p-1 hover:border-fuchsia-500 
-    hover:text-fuchsia-500 transform duration-300 
+    rounded-full p-1 hover:border-green-500 
+    hover:text-green-500 transform duration-300 
     cursor-pointer text-[#ffffff] border-[#ffffff];
   }
 
   .button-div-class {
-    @apply text-center w-full border  border-fuchsia-600 bg-fuchsia-600
-    hover:border-fuchsia-400 rounded-full px-6 py-2  hover:bg-[#111111] transform duration-200;
+    @apply text-center w-full border  border-green-600 bg-green-600
+    hover:border-green-400 rounded-full px-6 py-2  hover:bg-[#111111] transform duration-200;
   }
 
   .image-class {
     @apply flex flex-col 
      transform duration-300 
-    rounded-2xl p-4 md:p-6 bg-fuchsia-950/90;
+    rounded-2xl p-4 md:p-6 bg-green-950/90;
   }
 
   .nav-link {
     @apply border-b-4 
     border-b-[#323232] 
     hover:border-b-4 
-    hover:border-b-fuchsia-500 px-4 py-1 
+    hover:border-b-green-500 px-4 py-1 
     border-t-0 border-r-0 border-l-0 border-t-[#323232] 
     border-r-[#323232] border-l-[#323232]
     hover:bg-[#323232] transform duration-200;
@@ -34,28 +34,28 @@
   /* +_________________________________________________________________________________________________________________________ */
   .main-card {
     @apply flex flex-col text-left border p-4 cursor-pointer
-    border-[#333333] rounded-xl hover:bg-fuchsia-950/30 
-    hover:border-fuchsia-400 transform duration-300;
+    border-[#333333] rounded-xl hover:bg-green-950/30 
+    hover:border-green-400 transform duration-300;
   }
 
   .sub-card {
     @apply flex flex-col text-left border p-4 w-full cursor-pointer md:my-2 md:my-0
-    border-[#333333] rounded-xl hover:bg-fuchsia-950/30 
-    hover:border-fuchsia-400 transform duration-300;
+    border-[#333333] rounded-xl hover:bg-green-950/30 
+    hover:border-green-400 transform duration-300;
   }
 
   /* _________________________________________________________________________________________________________________________ */
 
   .grid-one-main-card {
     @apply flex flex-col text-left border p-4  mx-1 cursor-pointer
-    border-[#333333] rounded-xl hover:bg-fuchsia-950/30 
-    hover:border-fuchsia-400 transform duration-300 my-6 md:my-2;
+    border-[#333333] rounded-xl hover:bg-green-950/30 
+    hover:border-green-400 transform duration-300 my-6 md:my-2;
   }
 
   .grid-one-sub-card {
     @apply flex flex-col text-left border p-4 w-full cursor-pointer
-    border-[#333333] rounded-xl hover:bg-fuchsia-950/30 
-    hover:border-fuchsia-400 transform duration-300 my-6 md:my-0;
+    border-[#333333] rounded-xl hover:bg-green-950/30 
+    hover:border-green-400 transform duration-300 my-6 md:my-0;
   }
 
   .topic {
